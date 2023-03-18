@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+ }
+ 
+ body {
+   margin: 0;
+   font-family: "poppins", sans-serif ;
+ }
+
+ .Header {
+    background-color: #ffff;
+   
+ }
+
+ hr {
+    opacity: 30%;
+ }
+
+ section {
+    display: flex;
+    flex-direction: column;
+ }
+ .Hero--photo {
+    max-width: 400px;
+    align-self: center;
+ }
+
+ h1 {
+    margin-bottom: 16px;
+ }
+
+ p {
+    margin-top: 0;
+ }
+
+ .card {
+    width: 175px;
+    font-size: 12px;
+ }
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+.gray {
+    color: #918E9B;
+}
+
+img {
+   font-weight: bold;
+}
+
+.main {
+   display: flex;
+   justify-content: space-around;
+}
